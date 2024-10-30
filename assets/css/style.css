@@ -1,0 +1,21 @@
+    /* Custom Colors */
+    :root {
+        --primary-red: #ff4d4d;
+        --secondary-grey: #333333;
+    }
+  
+  /* General Styles */
+    body {
+        color: #333;
+        background-color: #f9f9f9;
+    }
+    .navbar, .footer {
+        background-color: var(--secondary-grey);
+        color: #fff;
+    }
+  
+    .hero {
+        background: var(--primary-red) url('hero-image.jpg') center/cover no-repeat;
+        color: #fff;
+        padding: 100px 0;
+    }
